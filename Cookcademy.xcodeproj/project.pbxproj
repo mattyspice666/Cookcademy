@@ -15,6 +15,7 @@
 		134AE30F27BE0FD6002BD457 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE30E27BE0FD6002BD457 /* RecipeData.swift */; };
 		134AE31127BE16E5002BD457 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE31027BE16E5002BD457 /* RecipeDetailView.swift */; };
 		134AE31327BE1C0B002BD457 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE31227BE1C0B002BD457 /* AppColor.swift */; };
+		134AE32F27BE281F002BD457 /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE32E27BE281F002BD457 /* RecipeCategoryGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,11 @@
 		134AE30E27BE0FD6002BD457 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		134AE31027BE16E5002BD457 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		134AE31227BE1C0B002BD457 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		134AE32E27BE281F002BD457 /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
+		134AE33E27BE2B06002BD457 /* Dinner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dinner.jpeg; path = Assets/Dinner.jpeg; sourceTree = "<group>"; };
+		134AE33F27BE2B06002BD457 /* Dessert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dessert.jpeg; path = Assets/Dessert.jpeg; sourceTree = "<group>"; };
+		134AE34027BE2B06002BD457 /* Lunch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lunch.jpeg; path = Assets/Lunch.jpeg; sourceTree = "<group>"; };
+		134AE34127BE2B06002BD457 /* Breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Breakfast.jpg; path = Assets/Breakfast.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,12 @@
 		134AE2E027BDC400002BD457 /* Cookcademy */ = {
 			isa = PBXGroup;
 			children = (
+				134AE33D27BE2B06002BD457 /* Assets */,
 				134AE2E527BDC402002BD457 /* Assets.xcassets */,
+				134AE34127BE2B06002BD457 /* Breakfast.jpg */,
+				134AE33F27BE2B06002BD457 /* Dessert.jpeg */,
+				134AE33E27BE2B06002BD457 /* Dinner.jpeg */,
+				134AE34027BE2B06002BD457 /* Lunch.jpeg */,
 				134AE2E127BDC400002BD457 /* CookcademyApp.swift */,
 				134AE30D27BE0E84002BD457 /* Models */,
 				134AE2E727BDC402002BD457 /* Preview Content */,
@@ -82,6 +93,7 @@
 			children = (
 				134AE2E327BDC400002BD457 /* RecipesListView.swift */,
 				134AE31027BE16E5002BD457 /* RecipeDetailView.swift */,
+				134AE32E27BE281F002BD457 /* RecipeCategoryGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +113,13 @@
 				134AE2EF27BDC48E002BD457 /* Recipe.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		134AE33D27BE2B06002BD457 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +194,7 @@
 			files = (
 				134AE2F027BDC48E002BD457 /* Recipe.swift in Sources */,
 				134AE31127BE16E5002BD457 /* RecipeDetailView.swift in Sources */,
+				134AE32F27BE281F002BD457 /* RecipeCategoryGridView.swift in Sources */,
 				134AE30F27BE0FD6002BD457 /* RecipeData.swift in Sources */,
 				134AE2E427BDC400002BD457 /* RecipesListView.swift in Sources */,
 				134AE2E227BDC400002BD457 /* CookcademyApp.swift in Sources */,
