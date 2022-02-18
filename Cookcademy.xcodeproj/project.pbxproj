@@ -23,7 +23,8 @@
 		1354682B27BF04EB0031C874 /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */; };
 		1354684727BF378A0031C874 /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684627BF378A0031C874 /* ModifyMainInformationView.swift */; };
 		1354684927BF3E0C0031C874 /* ModifyIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684827BF3E0C0031C874 /* ModifyIngredientView.swift */; };
-		1354684B27BF44780031C874 /* ModifyIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684A27BF44780031C874 /* ModifyIngredientsView.swift */; };
+		1354684B27BF44780031C874 /* ModifyComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684A27BF44780031C874 /* ModifyComponentsView.swift */; };
+		1354684D27C0317E0031C874 /* ModifyDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684C27C0317E0031C874 /* ModifyDirectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,8 @@
 		1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
 		1354684627BF378A0031C874 /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 		1354684827BF3E0C0031C874 /* ModifyIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientView.swift; sourceTree = "<group>"; };
-		1354684A27BF44780031C874 /* ModifyIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientsView.swift; sourceTree = "<group>"; };
+		1354684A27BF44780031C874 /* ModifyComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyComponentsView.swift; sourceTree = "<group>"; };
+		1354684C27C0317E0031C874 /* ModifyDirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyDirectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +142,9 @@
 			children = (
 				1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */,
 				1354684627BF378A0031C874 /* ModifyMainInformationView.swift */,
+				1354684A27BF44780031C874 /* ModifyComponentsView.swift */,
 				1354684827BF3E0C0031C874 /* ModifyIngredientView.swift */,
-				1354684A27BF44780031C874 /* ModifyIngredientsView.swift */,
+				1354684C27C0317E0031C874 /* ModifyDirectionView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -224,8 +227,9 @@
 				134AE31127BE16E5002BD457 /* RecipeDetailView.swift in Sources */,
 				134AE32F27BE281F002BD457 /* RecipeCategoryGridView.swift in Sources */,
 				134AE30F27BE0FD6002BD457 /* RecipeData.swift in Sources */,
+				1354684D27C0317E0031C874 /* ModifyDirectionView.swift in Sources */,
 				1354682B27BF04EB0031C874 /* ModifyRecipeView.swift in Sources */,
-				1354684B27BF44780031C874 /* ModifyIngredientsView.swift in Sources */,
+				1354684B27BF44780031C874 /* ModifyComponentsView.swift in Sources */,
 				134AE2E427BDC400002BD457 /* RecipesListView.swift in Sources */,
 				134AE2E227BDC400002BD457 /* CookcademyApp.swift in Sources */,
 				1354684727BF378A0031C874 /* ModifyMainInformationView.swift in Sources */,
@@ -367,6 +371,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,6 +401,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
