@@ -21,6 +21,7 @@
 		1354682627BF03F50031C874 /* Breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1354682227BF03F50031C874 /* Breakfast.jpg */; };
 		1354682727BF03F50031C874 /* Dessert.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1354682327BF03F50031C874 /* Dessert.jpeg */; };
 		1354682B27BF04EB0031C874 /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */; };
+		1354684727BF378A0031C874 /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354684627BF378A0031C874 /* ModifyMainInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		1354682227BF03F50031C874 /* Breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Breakfast.jpg; path = "../../../Downloads/Cookcademy Assets 2/Breakfast.jpg"; sourceTree = "<group>"; };
 		1354682327BF03F50031C874 /* Dessert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dessert.jpeg; path = "../../../Downloads/Cookcademy Assets 2/Dessert.jpeg"; sourceTree = "<group>"; };
 		1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
+		1354684627BF378A0031C874 /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				1354682A27BF04EB0031C874 /* ModifyRecipeView.swift */,
+				1354684627BF378A0031C874 /* ModifyMainInformationView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				1354682B27BF04EB0031C874 /* ModifyRecipeView.swift in Sources */,
 				134AE2E427BDC400002BD457 /* RecipesListView.swift in Sources */,
 				134AE2E227BDC400002BD457 /* CookcademyApp.swift in Sources */,
+				1354684727BF378A0031C874 /* ModifyMainInformationView.swift in Sources */,
 				134AE31327BE1C0B002BD457 /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
