@@ -34,4 +34,8 @@ class RecipeData: ObservableObject {
         }
         return nil
     }
+
+    var favoriteRecipes: [Recipe] {
+        recipes.filter { $0.isFavorite }
+    }
 }
