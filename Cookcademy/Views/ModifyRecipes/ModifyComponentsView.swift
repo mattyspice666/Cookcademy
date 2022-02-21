@@ -31,7 +31,7 @@ struct ModifyComponentsView<Component: RecipeComponent, DestinationView: ModifyC
     @Binding var components: [Component]
     @State var newComponent = Component()
 
-    private let listBackgroundColor = AppColor.background
+    @AppStorage("listBackgroundColor") private var listBackgroundColor = AppColor.background
     private let listForegroundColor = AppColor.foreground
 
     var body: some View {

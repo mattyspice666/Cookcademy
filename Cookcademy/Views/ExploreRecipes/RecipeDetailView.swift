@@ -1,18 +1,19 @@
-//
-//  RecipeDetailView.swift
-//  Cookcademy
-//
-//  Created by Matthew Larrabee on 2/16/22.
-//
+    //
+    //  RecipeDetailView.swift
+    //  Cookcademy
+    //
+    //  Created by Matthew Larrabee on 2/16/22.
+    //
 
 import SwiftUI
 
 struct RecipeDetailView: View {
     @Binding var recipe: Recipe
     @State private var isPresenting = false
+    @AppStorage("hideOptionalSteps") private var hideOptionalSteps: Bool = false
     
-    private let listBackgroundColor = AppColor.background
-    private let listTextColor = AppColor.foreground
+    @AppStorage("listBackgroundColor") private var listBackgroundColor = AppColor.background
+    @AppStorage("listTextColor") private var listTextColor = AppColor.foreground
     
     var body: some View {
         VStack{
@@ -41,10 +42,15 @@ struct RecipeDetailView: View {
                 Section(header: Text("Directions")) {
                     ForEach(recipe.directions.indices, id: \.self) { index in
                         let direction = recipe.directions[index]
-                        HStack {
-                            Text("\(index + 1). ").bold()
-                            Text("\(direction.isOptional ? "Optional " : "")" + "\(direction.description)")
-                        } .foregroundColor(listTextColor)
+                        if direction.isOptional && hideOptionalSteps {
+                            EmptyView()
+                        } else {
+                            HStack {
+                                let index = recipe.index(of: direction, excludingOptionalDirections: hideOptionalSteps) ?? 0
+                                Text("\(index + 1). ").bold()
+                                Text("\(direction.isOptional ? "Optional " : "")" + "\(direction.description)")
+                            } .foregroundColor(listTextColor)
+                        }
                     }
                 }.listRowBackground(listBackgroundColor)
             }
