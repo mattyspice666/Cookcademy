@@ -7,4 +7,7 @@
 -Test recipes come from Codecademy
 
 #App Progress
--Latest update: added settings page & made settings stay thru app open/close
+-Latest update: -added save/load functionality and persistence
+
+-Previous updates: 
+    -added settings page & made settings stay thru app open/close
