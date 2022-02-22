@@ -14,6 +14,8 @@ struct RecipeDetailView: View {
     
     @AppStorage("listBackgroundColor") private var listBackgroundColor = AppColor.background
     @AppStorage("listTextColor") private var listTextColor = AppColor.foreground
+
+    @EnvironmentObject private var recipeData: RecipeData
     
     var body: some View {
         VStack{
@@ -82,6 +84,9 @@ struct RecipeDetailView: View {
                     }
                     .navigationTitle("Edit Recipe")
             }
+        }
+        .onDisappear {
+            recipeData.saveRecipes()
         }
     }
 }
